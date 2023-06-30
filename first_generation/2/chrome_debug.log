@@ -1,0 +1,7 @@
+[23080:24404:0630/200840.602:WARNING:chrome_main_delegate.cc(593)] This is Chrome version 114.0.5735.199 (not a warning)
+[23080:24404:0630/200840.637:INFO:chrome_browser_cloud_management_controller.cc(167)] Starting CBCM Controller Initialization
+[23080:24404:0630/200840.637:INFO:chrome_browser_cloud_management_controller.cc(195)] No machine level policy manager exists.
+[23080:24404:0630/200841.104:INFO:CONSOLE(6577)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6577)
+[23080:24404:0630/200841.138:INFO:CONSOLE(6577)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6577)
+[23080:24404:0630/200841.154:INFO:CONSOLE(6577)] "crbug/1173575, non-JS module files deprecated.", source: chrome-error://chromewebdata/ (6577)
+[23080:24404:0630/200841.224:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
