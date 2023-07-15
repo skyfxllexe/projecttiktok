@@ -7,7 +7,7 @@ import random
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium_stealth import stealth
-
+from selenium.webdriver.chrome.service import Service
 user_agent_list = []
 f = open("useragents.txt")
 for i in f:

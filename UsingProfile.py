@@ -34,6 +34,9 @@ class User():
     def set_options(self)-> webdriver.ChromeOptions:
         options = webdriver.ChromeOptions()
         options.add_argument(f"user-data-dir={os.getcwd}/first_generation/{self.ID}")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+        options.add_argument('--proxy-server=143.42.226.147:3128')
         return options
     
     def set_stealh(self) -> None:
@@ -137,4 +140,4 @@ account1 = User(package_main_info, package_meta_info)
 
 
 account1.set_all()
-account1.start_test()
+account1.authorize()
